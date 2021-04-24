@@ -1,32 +1,13 @@
+/* Basic layout */
 html, body {
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
 }
 body { overflow-y: auto; }
+/* End Basic layout */
 
-.section.hero {
-	display: flex;
-	padding: 75px;
-	min-height: 60vh;
-	align-items: center;
-	justify-content: space-around;
-	background-image: url(../img/ariesBuilding.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-}
-
-.section.product .card { margin-bottom: 1.5rem; }
-.section.product .card .img {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 200px;
-}
-.section.product .card .card-body .card-title { font-weight: bold; }
-.section.product .card .card-body .price {
-	font-weight: bold;
-	color: green;
-}
+/* Text */
+body { font-family: 'Lato', sans-serif; }
+.title { font-family: 'Poppins', sans-serif; }
+/* End Text */
