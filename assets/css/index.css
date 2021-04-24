@@ -31,6 +31,10 @@ html, body { background-color: #f5f5f5; }
 .bg-norepeat { background-repeat: no-repeat; }
 /* End Background image */
 
+/* Filter */
+.filter-shadow { filter: drop-shadow(0 .5rem 1rem rgba(0, 0, 0, 0.75)); }
+/* End Filter */
+
 /* Navbar */
 .has-nav-fixed-top { padding-top: 56px; }
 .navbar-light.backdrop-blur {
