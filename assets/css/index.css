@@ -17,6 +17,7 @@ body { overflow-y: auto; }
 /* Text */
 body { font-family: 'Lato', sans-serif; }
 .title { font-family: 'Poppins', sans-serif; }
+.text-prime { color: var(--color-prime); }
 /* End Text */
 
 /* Background color */
