@@ -16,6 +16,14 @@
 		.section.hero >.img-bg {
 			min-height: calc(100vh - (48px * 2));
 		}
+		.section.hero .number {
+			font-size: calc(4.8rem + 4.5vw);
+			opacity: 0.5;
+			margin-top: -2rem;
+		}
+		@media(min-width: 768px) {
+			.section.hero .number { margin-top: -3rem; }
+		}
 	</style>
 </head>
 <body class="has-nav-fixed-top">
@@ -43,11 +51,14 @@
 	<div class="section hero pt-1 pb-3 px-3 px-md-4 px-lg-5">
 		<div class="img-bg bg-cover bg-center bg-norepeat p-3 d-flex align-items-end text-end text-light" style="background-image: url('assets/img/interior-landscape-1.jpg');">
 			<div class="container">
-				<h1 class="title text-white display-1 filter-shadow">Homey feel everywhere</h1>
+				<h1 class="title text-white display-1 filter-shadow">Homey feel<br>everywhere</h1>
 			</div>
 		</div>
-		<div class="container text-end" style="margin-top: -16px;">
-			<h3><span class="badge rounded-pill bg-white text-prime shadow">Scroll down</span></h3>
+		<div class="container" style="margin-top: -16px;">
+			<div class="d-flex">
+				<h1 class="title number text-prime">01</h1>
+				<h3 class="ms-auto"><span class="badge rounded-pill bg-white text-prime shadow">Scroll down</span></h3>
+			</div>
 		</div>
 	</div>
 
