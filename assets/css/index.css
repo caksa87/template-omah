@@ -12,6 +12,12 @@ body { font-family: 'Lato', sans-serif; }
 .title { font-family: 'Poppins', sans-serif; }
 /* End Text */
 
-/* Background */
+/* Background color */
 html, body { background-color: #f5f5f5; }
-/* End Background */
+/* End Background color */
+
+/* Background image */
+.bg-cover { background-size: cover; }
+.bg-center { background-position: center; }
+.bg-norepeat { background-repeat: no-repeat; }
+/* End Background image */
