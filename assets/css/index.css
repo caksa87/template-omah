@@ -22,3 +22,7 @@ html, body { background-color: #f5f5f5; }
 .bg-center { background-position: center; }
 .bg-norepeat { background-repeat: no-repeat; }
 /* End Background image */
+
+/* Navbar */
+.has-nav-fixed-top { padding-top: 56px; }
+/* End Navbar */
