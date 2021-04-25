@@ -42,7 +42,14 @@
 		}
 		.section.service .card:hover .icon { color: var(--color-white); }
 
-		.section.client .card { height: 125px; }
+		.section.client .card {
+			height: 125px;
+			transition: .3s;
+		}
+		.section.client .card:hover {
+			transform: scale(1.1);
+			filter: drop-shadow(0 6rem 3rem rgba(48,60,74,0.35));
+		}
 
 		.side .left {
 			height: calc(100vh - (59px * 2));
@@ -167,7 +174,7 @@
 						<h1 class="title section-number text-dark" style="margin-bottom: -5rem;">03</h1>
 						<h1 class="title">Our services</h1>
 					</div>
-					<div class="row g-2">
+					<div class="row g-2" style="cursor: default;">
 						<div class="col-12 col-md-6 col-lg-3 text-center">
 							<div class="d-flex h-100 align-items-center">
 								<div class="card card-body">
