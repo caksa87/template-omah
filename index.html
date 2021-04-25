@@ -25,6 +25,14 @@
 
 		@media(min-width: 768px) {
 			.section.about [class*=col-]:nth-child(2) { z-index: 1; }
+			.section.about [class*=col-]:nth-child(1) .card {
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+			.section.about [class*=col-]:nth-child(3) .card {
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
 		}
 
 		.section.service .card {
@@ -49,6 +57,11 @@
 		.section.client .card:hover {
 			transform: scale(1.1);
 			filter: drop-shadow(0 6rem 3rem rgba(48,60,74,0.35));
+		}
+
+		.section.testimonial .avatar {
+			width: 50px;
+			height: 50px;
 		}
 
 		.side .left {
@@ -113,6 +126,10 @@
 	</div>
 	<!-- End Section hero -->
 
+	<div class="container">
+		<h1 class="title display-3">Why you should <span class="text-prime">choose us</span>?</h1>
+	</div>
+
 	<div class="d-flex side px-3">
 		<!-- Sidebar -->
 		<div class="left d-flex sticky-top me-3">
@@ -172,43 +189,35 @@
 				<div class="container">
 					<div class="mb-5" style="max-width: 500px;">
 						<h1 class="title section-number text-dark" style="margin-bottom: -5rem;">03</h1>
-						<h1 class="title">Our services</h1>
+						<h1 class="title">What we offer</h1>
 					</div>
 					<div class="row g-2" style="cursor: default;">
 						<div class="col-12 col-md-6 col-lg-3 text-center">
-							<div class="d-flex h-100 align-items-center">
-								<div class="card card-body">
-									<h4 class="title">Lorem ipsum</h4>
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
-									<h1><i class="icon far fa-check-circle"></i></h1>
-								</div>
+							<div class="card card-body">
+								<h4 class="title">Lorem ipsum</h4>
+								<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+								<h1><i class="icon far fa-check-circle"></i></h1>
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-lg-3 text-center">
-							<div class="d-flex h-100 align-items-center">
-								<div class="card card-body">
-									<h4 class="title">Lorem ipsum</h4>
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
-									<h1><i class="icon far fa-check-circle"></i></h1>
-								</div>
+							<div class="card card-body">
+								<h4 class="title">Lorem ipsum</h4>
+								<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+								<h1><i class="icon far fa-check-circle"></i></h1>
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-lg-3 text-center">
-							<div class="d-flex h-100 align-items-center">
-								<div class="card card-body">
-									<h4 class="title">Lorem ipsum</h4>
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
-									<h1><i class="icon far fa-check-circle"></i></h1>
-								</div>
+							<div class="card card-body">
+								<h4 class="title">Lorem ipsum</h4>
+								<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+								<h1><i class="icon far fa-check-circle"></i></h1>
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-lg-3 text-center">
-							<div class="d-flex h-100 align-items-center">
-								<div class="card card-body">
-									<h4 class="title">Lorem ipsum</h4>
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
-									<h1><i class="icon far fa-check-circle"></i></h1>
-								</div>
+							<div class="card card-body">
+								<h4 class="title">Lorem ipsum</h4>
+								<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+								<h1><i class="icon far fa-check-circle"></i></h1>
 							</div>
 						</div>
 					</div>
@@ -264,6 +273,45 @@
 				</div>
 			</div>
 			<!-- End Section client -->
+
+			<!-- Section project -->
+			<div class="section project py-5">
+				<div class="container">
+					<div class="mb-5" style="max-width: 500px;">
+						<h1 class="title section-number text-dark" style="margin-bottom: -5rem;">05</h1>
+						<h1 class="title">What we have done</h1>
+						<p>These are our best of the best projects that make our clients happy</p>
+					</div>
+				</div>
+			</div>
+			<!-- End Section project -->
+
+			<!-- Section testimonial -->
+			<div class="section testimonial py-5">
+				<div class="container">
+					<div class="mb-5" style="max-width: 500px;">
+						<h1 class="title section-number text-dark" style="margin-bottom: -5rem;">06</h1>
+						<h1 class="title">What they say?</h1>
+					</div>
+					<div class="row g-2 justify-content-center" style="cursor: default;">
+						<div class="col-12 col-md-6">
+							<div class="d-flex h-100 align-items-center">
+								<div class="card card-body">
+									<div class="d-flex mb-2">
+										<div class="avatar rounded-circle" style="background-image: url('assets/img/user.jpeg');"></div>
+										<div class="ms-2">
+											<h6 class="title mb-0">Caksa Wintang</h6>
+											<p class="mb-0">Project name</p>
+										</div>
+									</div>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Section testimonial -->
 		</div>
 	</div>
 
