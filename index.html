@@ -27,6 +27,21 @@
 			.section.about [class*=col-]:nth-child(2) { z-index: 1; }
 		}
 
+		.section.service .card {
+			transition: .3s;
+			background-color: var(--color-white);
+		}
+		.section.service .card .icon { color: var(--color-prime); }
+		.section.service .card:hover {
+			color: var(--color-white);
+			background-color: var(--color-prime);
+			filter: drop-shadow(0 6rem 3rem rgba(247,152,89,.7));
+			border: 0;
+			transform: scale(1.1);
+			z-index: 1;
+		}
+		.section.service .card:hover .icon { color: var(--color-white); }
+
 		.side .left {
 			height: calc(100vh - (59px * 2));
 			flex-direction: column;
@@ -151,12 +166,39 @@
 						<h1 class="title">Our services</h1>
 					</div>
 					<div class="row g-2">
-						<div class="col-12 col-md-4 text-center">
+						<div class="col-12 col-md-6 col-lg-3 text-center">
 							<div class="d-flex h-100 align-items-center">
-								<div class="card card-body bg-white">
-									<i class="icon fas fa-comments text-prime display-1"></i>
+								<div class="card card-body">
 									<h4 class="title">Lorem ipsum</h4>
 									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+									<h1><i class="icon far fa-check-circle"></i></h1>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3 text-center">
+							<div class="d-flex h-100 align-items-center">
+								<div class="card card-body">
+									<h4 class="title">Lorem ipsum</h4>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+									<h1><i class="icon far fa-check-circle"></i></h1>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3 text-center">
+							<div class="d-flex h-100 align-items-center">
+								<div class="card card-body">
+									<h4 class="title">Lorem ipsum</h4>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+									<h1><i class="icon far fa-check-circle"></i></h1>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3 text-center">
+							<div class="d-flex h-100 align-items-center">
+								<div class="card card-body">
+									<h4 class="title">Lorem ipsum</h4>
+									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+									<h1><i class="icon far fa-check-circle"></i></h1>
 								</div>
 							</div>
 						</div>
