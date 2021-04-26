@@ -59,7 +59,10 @@
 			filter: drop-shadow(0 6rem 3rem rgba(48,60,74,0.35));
 		}
 
-		.section.testimonial .carousel .carousel-inner { filter: drop-shadow(0 6rem 3rem rgba(48,60,74,0.35)); }
+		.section.project .carousel .carousel-inner .card .img { height: 500px !important; }
+
+		.section.testimonial .carousel .carousel-inner,
+		.section.project .carousel .carousel-inner { filter: drop-shadow(0 6rem 3rem rgba(48,60,74,0.35)); }
 		.section.testimonial .avatar {
 			width: 50px;
 			height: 50px;
@@ -283,6 +286,50 @@
 						<h1 class="title">What we have done</h1>
 						<p>These are our best of the best projects that make our clients happy</p>
 					</div>
+					<div id="carouselProject" class="carousel slide control-offside mx-auto mb-5" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselProject" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselProject" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselProject" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="card">
+									<div class="img w-100 h-100 bg-center bg-cover bg-norepeat" style="background-image: url('assets/img/interior-landscape-3.jpg');"></div>
+									<div class="card-body">
+										<h1 class="title">Project Title</h1>
+										<p>Project description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, amet at nostrum perferendis quia error repellendus quaerat explicabo, odio sequi!</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card">
+									<div class="img w-100 h-100 bg-center bg-cover bg-norepeat" style="background-image: url('assets/img/interior-landscape-4.jpg');"></div>
+									<div class="card-body">
+										<h1 class="title">Project Title</h1>
+										<p>Project description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, amet at nostrum perferendis quia error repellendus quaerat explicabo, odio sequi!</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card">
+									<div class="img w-100 h-100 bg-center bg-cover bg-norepeat" style="background-image: url('assets/img/interior-landscape-5.jpg');"></div>
+									<div class="card-body">
+										<h1 class="title">Project Title</h1>
+										<p>Project description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, amet at nostrum perferendis quia error repellendus quaerat explicabo, odio sequi!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselProject" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselProject" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
 				</div>
 			</div>
 			<!-- End Section project -->
@@ -293,6 +340,7 @@
 					<div class="mb-5" style="max-width: 500px;">
 						<h1 class="title section-number text-dark" style="margin-bottom: -5rem;">06</h1>
 						<h1 class="title">What they say?</h1>
+						<p>There is no doubt in our clients happiness</p>
 					</div>
 					<div id="carouselTestimonial" class="carousel slide control-offside mx-auto mb-5" data-bs-ride="carousel" style="max-width: 550px;">
 						<div class="carousel-indicators">
