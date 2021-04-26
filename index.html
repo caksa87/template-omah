@@ -59,6 +59,7 @@
 			filter: drop-shadow(0 6rem 3rem rgba(48,60,74,0.35));
 		}
 
+		.section.testimonial .carousel .carousel-inner { filter: drop-shadow(0 6rem 3rem rgba(48,60,74,0.35)); }
 		.section.testimonial .avatar {
 			width: 50px;
 			height: 50px;
@@ -293,9 +294,14 @@
 						<h1 class="title section-number text-dark" style="margin-bottom: -5rem;">06</h1>
 						<h1 class="title">What they say?</h1>
 					</div>
-					<div class="row g-2 justify-content-center" style="cursor: default;">
-						<div class="col-12 col-md-6">
-							<div class="d-flex h-100 align-items-center">
+					<div id="carouselTestimonial" class="carousel slide control-offside mx-auto mb-5" data-bs-ride="carousel" style="max-width: 550px;">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselTestimonial" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselTestimonial" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselTestimonial" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
 								<div class="card card-body">
 									<div class="d-flex mb-2">
 										<div class="avatar rounded-circle" style="background-image: url('assets/img/user.jpeg');"></div>
@@ -304,10 +310,42 @@
 											<p class="mb-0">Project name</p>
 										</div>
 									</div>
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+									<p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card card-body">
+									<div class="d-flex mb-2">
+										<div class="avatar rounded-circle" style="background-image: url('assets/img/avatar-8.jpg');"></div>
+										<div class="ms-2">
+											<h6 class="title mb-0">Lena Gramah</h6>
+											<p class="mb-0">Project name</p>
+										</div>
+									</div>
+									<p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card card-body">
+									<div class="d-flex mb-2">
+										<div class="avatar rounded-circle" style="background-image: url('assets/img/avatar-9.jpg');"></div>
+										<div class="ms-2">
+											<h6 class="title mb-0">Anor Ling</h6>
+											<p class="mb-0">Project name</p>
+										</div>
+									</div>
+									<p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore earum molestias, odit exercitationem tenetur nihil similique reprehenderit libero dolorem rerum expedita quasi ducimus debitis minima dicta blanditiis soluta cum natus.</p>
 								</div>
 							</div>
 						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonial" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonial" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
 					</div>
 				</div>
 			</div>
