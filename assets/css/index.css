@@ -79,7 +79,7 @@ html, body { background-color: #f5f5f5; }
 /* Section number */
 .section-number {
 	font-size: calc(4.8rem + 4.5vw);
-	opacity: 0.5;
+	opacity: .2;
 }
 /* End Section number */
 
