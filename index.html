@@ -23,6 +23,14 @@
 			.section.hero .section-number { margin-top: -3rem; }
 		}
 
+		/*.section.about {
+			background-image:
+				url('assets/img/blob-2.svg');
+			background-size:
+				70vmax;
+			background-position:
+				14vw top;
+		}*/
 		@media(min-width: 768px) {
 			.section.about [class*=col-]:nth-child(2) { z-index: 1; }
 			.section.about [class*=col-]:nth-child(1) .card {
@@ -50,6 +58,17 @@
 		}
 		.section.service .card:hover .icon { color: var(--color-white); }
 
+		.section.client {
+			background-image:
+				url('assets/img/blob-1.svg'),
+				url('assets/img/blob-2.svg');
+			background-size:
+				40vmax,
+				50vmax;
+			background-position:
+				left bottom,
+				46vw bottom;
+		}
 		.section.client .card {
 			height: 125px;
 			transition: .3s;
@@ -59,6 +78,17 @@
 			filter: drop-shadow(0 6rem 3rem rgba(48,60,74,0.35));
 		}
 
+		.section.project {
+			background-image:
+				url('assets/img/blob-1.svg'),
+				url('assets/img/blob-2.svg');
+			background-size:
+				40vmax,
+				70vmax;
+			background-position:
+				left top,
+				46vmax top;
+		}
 		.section.project .carousel .carousel-inner .card .img { height: 500px !important; }
 
 		.section.testimonial .carousel .carousel-inner,
@@ -135,9 +165,9 @@
 		<h1 class="title display-3">Why you should <span class="text-prime">choose us</span>?</h1>
 	</div>
 
-	<div class="d-flex side px-3">
+	<div class="d-flex side ps-md-3">
 		<!-- Sidebar -->
-		<div class="left d-flex sticky-top me-3">
+		<div class="left d-flex sticky-top mx-3">
 			<div class="m-auto">
 				<div class="menu-wrapper d-flex align-items-center">
 					<a class="menu-item" href="tel:086793388880"><i class="icon fa fa-phone"></i></a>
@@ -152,14 +182,15 @@
 
 		<div class="right w-100">
 			<!-- Section about -->
-			<div class="section about py-5">
+			<div class="section about py-5 bg-norepeat" style="background-image: url('assets/img/blob-2.svg'); background-size: 70vmax; background-position: 14vw top; position: relative;">
+				<div class="bg-center w-100 h-100" style="background-image: url('assets/img/bg-dot.png'); background-size: 61px; position: absolute; top: -30%; filter: brightness(0);"></div>
 				<div class="container">
 					<div class="mb-5" style="max-width: 500px;">
 						<h1 class="title section-number text-dark" style="margin-bottom: -5rem;">02</h1>
 						<h1 class="title">20 years of experience</h1>
 						<p>Our mission is to design and build your ambitious buildings with homey feels to make sure you enjoy it. In last 20 years, we have been designing and building home, pop tops, remodels and any other type of architecture.</p>
 					</div>
-					<div class="row gx-0 gy-4">
+					<div class="row gx-0 gy-2">
 						<div class="col-12 col-md-4 text-center" style="filter: drop-shadow(0 6rem 3rem rgba(48,60,74,0.35));">
 							<div class="d-flex h-100 align-items-center">
 								<div class="card card-body border-0 p-4 p-lg-5 bg-white">
@@ -202,8 +233,9 @@
 			<!-- End Section about -->
 
 			<!-- Section service -->
-			<div class="section service py-5">
-				<div class="container">
+			<div class="section service py-5 bg-norepeat" style="position: relative;">
+				<div class="bg-prime rounded-circle" style="position: absolute; opacity: .2; width: 100vh; height: 100vh; right: -10%;"></div>
+				<div class="container" style="position: relative;">
 					<div class="mb-5" style="max-width: 500px;">
 						<h1 class="title section-number text-dark" style="margin-bottom: -5rem;">03</h1>
 						<h1 class="title">What we offer</h1>
@@ -243,7 +275,7 @@
 			<!-- End Section service -->
 
 			<!-- Section client -->
-			<div class="section client py-5">
+			<div class="section client py-5 bg-norepeat">
 				<div class="container">
 					<div class="mb-5" style="max-width: 500px;">
 						<h1 class="title section-number text-dark" style="margin-bottom: -5rem;">04</h1>
@@ -297,7 +329,7 @@
 			<!-- End Section client -->
 
 			<!-- Section project -->
-			<div class="section project py-5">
+			<div class="section project py-5 bg-norepeat">
 				<div class="container">
 					<div class="mb-5" style="max-width: 500px;">
 						<h1 class="title section-number text-dark" style="margin-bottom: -5rem;">05</h1>
@@ -353,7 +385,7 @@
 			<!-- End Section project -->
 
 			<!-- Section testimonial -->
-			<div class="section testimonial py-5">
+			<div class="section testimonial py-5 bg-norepeat bg-norepeat" style="background-image: url('assets/img/blob-2.svg'); background-size: 70vmax; background-position: 14vw bottom;">
 				<div class="container">
 					<div class="mb-5" style="max-width: 500px;">
 						<h1 class="title section-number text-dark" style="margin-bottom: -5rem;">06</h1>
